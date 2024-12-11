@@ -1,0 +1,47 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    background-image: url("onemore.webp");
+    
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    flex-direction: column;
+
+}
+
+.container h1{
+    font-size: 3rem;
+    color: black;
+    background-color: transparent;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.container #clock{
+    background-color: transparent;
+    width: 30vw;
+    text-align: center;
+}
+.container #clock span{
+    color: black;
+    font-size: 4rem;
+    font-family: 'Poppins';
+    margin-left: 5px;
+}
+
+@media(max-width:902px){
+    .container #clock span{
+        font-size: 1rem;
+    }
+}
